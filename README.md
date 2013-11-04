@@ -1,22 +1,26 @@
-# sendgrid-sdk-extension #
-This library allows you to quickly and easily send emails through SendGrid using Visual Studio SDK from your Windows 8 Applications in C# and Javascript.
+# Sendgrid SDK Extension #
+This library allows you to quickly and easily send emails through SendGrid using Visual Studio SDK from your Windows 8 Applications in C# and Javascript and Windows Phone 8 Applications.
  
 ## License ##
 Licensed under the MIT License.
 
 ## Downloading ##
 
-Installing the SendGrid SDK Extension is as simple as executing SendGridSdkVSIX.vsix file. If you're using git, you can just clone down the repo like this:
+Installing the SendGrid SDK Extension is as simple as executing SendGridSdkWindows8.vsix file for Windows 8 Projects or the SendGridSdkWindowsPhone.vsix for Windows Phone 8 Projects and including them as references in your projects.
+The Windows Phone versions uses Json.Net library which is included in the VSIX installer.
+
+
+If you're using git, you can just clone down the repo like this:
 
 ```
 git clone git@github.com:sendgrid/visual_studio_sdk.git
 ```
 
-__Note__: If you don't have git or would rather install by unpacking a Zip or Tarball, you can always grab the latest version of the package from [the downloads page](https://github.com/sendgrid/sendgrid-google-java/archive/master.zip). 
+__Note__: If you don't have git or would rather install by unpacking a Zip or Tarball, you can always grab the latest version of the package from [the downloads page](https://github.com/sendgrid/visual_studio_sdk/archive/master.zip). 
 
 
 ## SendGrid API ##
-SendGridSDK provides SendGrid library in C# for sending emails from Windows 8 Apps.
+SendGridSDK provides SendGrid library in C# for sending emails from Windows 8 and Windows Phone 8 Apps.
 
 
 ## Mail Pre-Usage ##

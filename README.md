@@ -1,4 +1,4 @@
-# Sendgrid SDK Extension #
+# SendGrid SDK Extension #
 This library allows you to quickly and easily send emails through SendGrid using Visual Studio SDK from your Windows 8 Applications in C# and Javascript and Windows Phone 8 Applications.
  
 ## License ##
